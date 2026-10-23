@@ -1,0 +1,12 @@
+{
+  "name": "friday-ai-professional-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational Boeing 787-inspired dashboard demo with a local Node.js backend.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
