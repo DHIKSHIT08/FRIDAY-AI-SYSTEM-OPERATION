@@ -162,7 +162,10 @@ const server = http.createServer(async (request, response) => {
   }
 });
 
-server.listen(PORT, '127.0.0.1', () => {
+server.listen(PORT, '0.0.0.0', () => {
+
+
+  
   console.log(`Friday AI demo is running at http://127.0.0.1:${PORT}`);
   console.log('Local demo backend only. No aircraft or external network connection is used.');
 });
