@@ -1,0 +1,7 @@
+# Runtime state is generated locally by the demo and should not be published.
+data/demo-state.json
+
+# Common local editor/system files.
+.DS_Store
+Thumbs.db
+.vscode/
